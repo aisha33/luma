@@ -12,7 +12,7 @@ import { useState } from 'react'
 function Home() {
  const [selectedProduct, setSelectedProduct] =
     useState<Product | null>(null);
-    const [cartItems, setCartItems] = useState<CartItem[]>([]);
+    const [, setCartItems] = useState<CartItem[]>([]);
 
 const handleAddToCart = (
   product: Product,
